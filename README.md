@@ -1,16 +1,17 @@
-# movie_app
+# Flutter App with Bloc State Management and Clean Architecture
+The Movie App is a Flutter-based application that offers a seamless experience for movie enthusiasts. Users can explore detailed movie information, ratings, showtimes, search for movies, and receive recommendations.
 
-A new Flutter project.
+## Features 🎯
 
-## Getting Started
+- **Search for Movies:** Search for specific movies by title.
+- **Movie Recommendations:**  Recive similar movies when viewing specific film details.
+- **View Movie Details:** Access fundamental movie information, including release year, ratings, duration, storyline, and genre.
+- **Ratings:** View user and critic ratings to help you make informed movie choices.
+- **Showtimes:** Check movie showtimes and locations for convenient planning.
 
-This project is a starting point for a Flutter application.
+## Technologies Used
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter:** The application is built using the Flutter framework, ensuring a smooth and responsive user interface.
+- **Bloc State Management:** Bloc is used for state management, providing efficient handling of app states and user interactions.
+- **Clean Architecture:** The project follows Clean Architecture principles for maintainability and scalability.
+- **Dio:** Dio is used for making network requests, enabling smooth interaction with external APIs.
